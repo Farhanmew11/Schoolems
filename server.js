@@ -3,8 +3,8 @@ import express from 'express';
 
 const app =  express();
 
-app.get( '/' , (res, rej) => {
-res.json('Hello World!')
+app.get( '/' , (req, res) => {
+res.send('Hello World!')
 })
 
 
